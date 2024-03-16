@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Detect2Grasp</title>
+  </head>
+  <body>
+  	<div style="text-align:center;">
+	    <div id="intro" style="width: 100%; padding:40px; text-align:center;">
+	    <h1><a style="color:#191919">Detect2Grasp: integrating global and local visual perception for berry manipulation with low cost robots</a></h1>
+	    </div>
+	    <!-- TODO: Edit author names-->
+	    <div class="container" >
+		  <div class="row">		
+		  	<div class="col-sm-3">
+		      <a href=""><h4> Kendall Koe </h4></a>    
+		    </div>
+		    <div class="col-sm-3">
+		      <a href=""><h4>  Poojan Kalpeshbhai Shah </h4></a>    
+		    </div>
+		    <div class="col-sm-3">
+		      <a href="https://walt.web.illinois.edu/"><h4> Benjamin Walt </h4></a> 
+		    </div>
+		  </div>
+		  <div class="row">  
+		    <div class="col-sm-3">
+		      <a href=""><h4> Jordan Westphal </h4></a>    
+		    </div>
+		    <div class="col-sm-2">
+		      <a href="https://www.samhitamarri.com/"><h4> Samhita Marri </h4></a> 
+		    </div>
+		    <div class="col-sm-3">
+		      <a href="https://shivanikamtikar.github.io/"><h4> Shivani Kamtikar </h4></a>    
+		    </div>
+		  </div>
+		  <div class="row">  
+		    		  
+          <div class="col-sm-4">
+		      <a href=""><h4> Naveen Kumar Uppalapati </h4></a> 
+		       </div>  
+		    <div class="col-sm-3 offset-sm-3">
+		      <a href="https://ise.illinois.edu/directory/profile/gkrishna"><h4> Girish Krishnan </h4></a> 
+		    </div>
+		    <div class="col-sm-3">
+		      <a href="http://daslab.illinois.edu/index.html#girish"><h4> Girish Chowdhary </h4></a> 
+		    </div>
+		  </div>
+		  <p></p>
+
+		  <div class="row">
+		  	<div class="col-lg">
+			<h4> University of Illinois at Urbana Champaign (UIUC) </h4>
+		  </div>
+	    </div>
+
+	    <div class="row">
+	  	<div class="col-lg">
+	   	    <h4> IROS 2024 </h4>
+	        </div>
+	    </div>
+
+            <br><br>
+		  <!-- TODO Add in Images -->
+	    <div class="row">
+		  <div class="col-lg">
+		    <center><h2>
+		    <a href="./pdfs/paper.pdf"> [Paper] </a> 
+	            <a href="./pdfs/bib.txt"> [Bibtex] </a> 
+                    <a href="https://github.com/samhita-m/visual_servoing_soft_arm"> [Code] </a>
+		    <a href="https://drive.google.com/file/d/121ZzOWs3c4gCqiINsLfIq2uHowDo1RB7/view?usp=sharing"> [Dataset] </a> 
+                    </h2></center> 
+		  </div>
+	    </div>
+		
+             <br><br>
+		  
+	    <div class="row">
+	  	<div class="col-lg">
+	  	<img src="./images/workflow.png" class="img-fluid" style="width:900px;">
+	  	</div>
+	    </div>
+
+	    <br><br>
+
+	    <div class="row">
+	  	<div class="col-sm">
+	  		<h2> Abstract </h2>
+	  	</div>
+	    </div>
+	    <div class="row">
+	  	<div style="font-size:16px"><p align="justify">
+	  		We present Detect2Grasp: A compact manipulation system designed for urban high tunnels that uses a depth camera to scan for fruit and a slender end effector mounted with an RGB camera and a two-finger gripper for grasping. When berries are detected, our visual servoing algorithm iteratively centers the fruit within the image and then proceeds toward it resulting in grasping berries with a 100\% success rate in 11.35s on average. In total, over 100 tests are performed, showing robustness to lighting conditions, sensor noise, and plant types. Additionally, our method shows promise in harvesting clusters of fruit. This work shows the potential for low-cost RGB cameras to be used for localizing and harvesting fruit autonomously.
+	  	</p>
+	  	</div>
+            </div>
+
+	    <br><br>
+<!-- TODO Add in video -->
+	    <div class="row">
+	  	<div class="col-lg">
+	  		<h2>Qualitative Results of Various Experiments</h2>
+			<center>
+			<video id="vid" controls="controls" onended="this.currentTime = 0; this.play();" src="video/demo.mp4" class="img-fluid" width="900px"> 
+			</video></center>
+                </div>
+	    </div>        		
+	<br><br>
+
+
+	  <div class="row">
+	  	<div class="col-sm">
+	  		<h2> Acknowledgement </h2>
+	  		<p align="justify">
+                        This work is supported by funding from the USDA-NIFA UIE grant (2023-70019-39365) and the AIFARMS National AI institute in agriculture, backed by AFRI grant no. 2020-67021-32799/project accession no.1024178 from USDA NIFA. Additionally, it benefits from a joint NSF-USDA COALESCE grant 2021-67021-34418. Furthermore, support is provided by the NSF grant No. DBI-2019674 for CROPPS.
+
+	  	</div>
+	  </div>		  
+
+	</div>
+	</div>
+        <br><br>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <footer>	  		
+		<p align="center">
+		 Website adapted from <a href="https://ioujenliu.github.io/SemanticTracklets/">Iou-Jen</a>, <a href="https://jonbarron.info/">Jon Barron </a> and <a href="https://github.com/leonidk/new_website"> Leonid Keselman </a>.
+	</footer>
+
+  </body>
+
+
+</html>
