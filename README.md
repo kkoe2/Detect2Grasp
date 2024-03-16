@@ -1,1 +1,1 @@
-# Detect2Grasp
+# Model-Based Dynamic Position and Orientation Control of a Hybrid Soft Continuum Manipulator
