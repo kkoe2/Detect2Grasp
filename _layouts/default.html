@@ -87,11 +87,14 @@
 <!-- TODO Add in video -->
 	    <div class="row">
 	  	<div class="col-lg">
-	  		<h2>Video</h2>
-			<center>
-			<video controls="" width="900px" autoplay="" src="https://github.com/kkoe2/Detect2Grasp.github.io/tree/main/video/demo.mp4">
-                        </video>
-			</center>
+	  	<h2>Video</h2>
+			
+		<center>
+			<video id="vid" controls="controls" onended="this.currentTime = 0; this.play();" src="video/demo.mp4" class="img-fluid" width="900px"> 
+		        </video>
+		</center>
+                </div>
+	    </div>     
                 </div>
 	    </div>        		
 	<br><br>
