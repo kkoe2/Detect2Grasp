@@ -1,1 +1,1 @@
-# Detect2grasp: Integrating Global and Local Visual Perception for Berry Manipulation With Low Cost Robots
+# Detect2Grasp: Integrating Global and Local Visual Perception for Berry Manipulation With Low Cost Robots
