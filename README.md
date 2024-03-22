@@ -1,1 +1,1 @@
-# Model-Based Dynamic Position and Orientation Control of a Hybrid Soft Continuum Manipulator
+# Detect2Grasp: Integrating Global and Local Visual Perception for Berry Manipulation With Low Cost Robots
